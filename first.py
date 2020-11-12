@@ -64,7 +64,9 @@ def lup(url,email,password):
 		lup(url,email,password)
 		return 0
 	finally:
-		open("log.txt","w").write("Logged temperature to "+url+" at "+ str(datetime.datetime.now()) + " as " + email + "\n")
+		outfile = open("log.txt","a")
+		outfile.write("Logged temperature to "+url+" at "+ str(datetime.datetime.now()) + " as " + email + "\n")
+		outfile.close()
 		return 0
 
 
