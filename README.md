@@ -10,4 +10,4 @@ cd TemperatureLogger
 ```
 
 ## Running
-python3 driver.py
+`python3 driver.py`
