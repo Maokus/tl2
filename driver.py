@@ -5,8 +5,8 @@ from first import lup
 
 TEST_URL = "https://forms.office.com/Pages/ResponsePage.aspx?id=cnEq1_jViUiahddCR1FZKiO7YT_hx85Csl2xmNoFL7pUMDE1VEFKREk4RVJTU1VSMTI0OVFWNzYwVy4u"
 URL = "https://forms.office.com/Pages/ResponsePage.aspx?id=cnEq1_jViUiahddCR1FZKi_YUnieBUBCi4vce5KjIHVUMkoxVUdBMVo2VUJTNFlSU1dFNEtNWUwxNS4u"
-EMAIL = "h1810101@nushigh.edu.sg"
-PASSWORD = "wetre2UJ"
+EMAIL = ""
+PASSWORD = ""
 
 senttoday = False
 hour = 60*60*2
