@@ -54,8 +54,6 @@ def sendtemp(url,email,password):
 	return 0
 
 def lup(url,email,password):
-	if keyboard.is_pressed("q"):
-		return 0
 	try:
 		sendtemp(url,email,password)
 	except SendTempException as e:
@@ -63,11 +61,11 @@ def lup(url,email,password):
 		print(e)
 		lup(url,email,password)
 		return 0
-	finally:
-		outfile = open("log.txt","a")
-		outfile.write("Logged temperature to "+url+" at "+ str(datetime.datetime.now()) + " as " + email + "\n")
-		outfile.close()
-		return 0
+
+	outfile = open("log.txt","a")
+	outfile.write("Logged temperature to "+url+" at "+ str(datetime.datetime.now()) + " as " + email + "\n")
+	outfile.close()
+	return 0
 
 
 
