@@ -1,6 +1,6 @@
 # TemperatureLogger
 
-For now this is a relatively simple project. It expects the PATH is set up with the selenium chromedriver, and a google chrome copy is in the folder with it. 
+This project requires chrome bc im lazy to make it compatible with other browsers.
 I am unsure as to whether this project works on windows, if anyone wants to they can pull the code and make it work. 
 
 ## Installation
