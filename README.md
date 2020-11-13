@@ -16,4 +16,5 @@ cd TemperatureLogger
 
 ## Running
 `python3 driver.py`
+
 driver.py is a simple program which checks the time every 2 hours and logs the temperature if the time is between 6 and 9.
